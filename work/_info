@@ -1,0 +1,274 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.6d/examples
+T_opt
+!s110 1740651574
+V[AZK8d^zJffJ;[8La7]Ah2
+04 16 10 work ripplecarryadder behavioral 1
+=1-50ebf64f2946-67c03c36-b6-3ee0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1740653709
+V0f3Vddz24>U`hW_o6=9ia3
+04 28 10 work addersubtractorcompositeunit behavioral 1
+=1-50ebf64f2946-67c0448d-ee-46d4
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1740595528
+V?:?607VfdP>>7@gY8Xm?Z0
+04 23 10 work fulladderusinghalfadder behavioral 1
+=1-50ebf64f2946-67bf6148-6-1830
+R3
+R1
+n@_opt2
+R2
+R0
+Eaddersubtractorcompositeunit
+Z4 w1740653557
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dD:/Computer-Architecture
+Z8 8D:/Computer-Architecture/AdderSubtractorCompositeUnit.vhd
+Z9 FD:/Computer-Architecture/AdderSubtractorCompositeUnit.vhd
+l0
+L5
+Vd<23_Ejd^dBA9SXaVOozO1
+!s100 5HLG8?mDP55`KhXN3R:D92
+Z10 OL;C;10.6d;65
+32
+Z11 !s110 1740653562
+!i10b 1
+Z12 !s108 1740653562.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/AdderSubtractorCompositeUnit.vhd|
+Z14 !s107 D:/Computer-Architecture/AdderSubtractorCompositeUnit.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 28 addersubtractorcompositeunit 0 22 d<23_Ejd^dBA9SXaVOozO1
+l25
+L14
+V]3O;d9aCck0hbmLHSYORM1
+!s100 0Y<_QEZ;OC@5H:YLI[;WE1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edecrementer
+Z17 w1740655094
+R5
+R6
+R7
+Z18 8D:/Computer-Architecture/Decrementer.vhd
+Z19 FD:/Computer-Architecture/Decrementer.vhd
+l0
+L5
+VOV5YC3<1T`3Jah?N[[jfd2
+!s100 2M?mgTn;VGZ:YHXMAbhaA3
+R10
+32
+Z20 !s110 1740655098
+!i10b 1
+Z21 !s108 1740655098.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/Decrementer.vhd|
+!s107 D:/Computer-Architecture/Decrementer.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 11 decrementer 0 22 OV5YC3<1T`3Jah?N[[jfd2
+l24
+L13
+VL33ocUQPLhMQEU8En3=dW1
+!s100 <2>Ze3Blez^?DTJfUPbUi3
+R10
+32
+R20
+!i10b 1
+R21
+R22
+Z23 !s107 D:/Computer-Architecture/Decrementer.vhd|
+!i113 0
+R15
+R16
+Efulladderusinghalfadder
+Z24 w1740595464
+R5
+R6
+R7
+Z25 8D:/Computer-Architecture/FullAdderUsingHalfAdder.vhd
+Z26 FD:/Computer-Architecture/FullAdderUsingHalfAdder.vhd
+l0
+L4
+VN;gG<KkY_Cm:mePAB>K;z0
+!s100 4SAlU10WbMH=Q6_g4cUhk2
+R10
+32
+Z27 !s110 1740595476
+!i10b 1
+Z28 !s108 1740595476.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/FullAdderUsingHalfAdder.vhd|
+Z30 !s107 D:/Computer-Architecture/FullAdderUsingHalfAdder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 23 fulladderusinghalfadder 0 22 N;gG<KkY_Cm:mePAB>K;z0
+l22
+L12
+VUC77nWLY]SGN`F@@P;hBH3
+!s100 UB7Ub_4JTKbIAcB5^PnEX1
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R15
+R16
+Ehalfadder
+Z31 w1740594642
+R5
+R6
+R7
+Z32 8D:/Computer-Architecture/HalfAdder.vhd
+Z33 FD:/Computer-Architecture/HalfAdder.vhd
+l0
+L4
+VGFKiK]:So9a`28^_@1MVn1
+!s100 0g?f@Fa3?QI16cJgBG1mc2
+R10
+32
+Z34 !s110 1740594688
+!i10b 1
+Z35 !s108 1740594688.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/HalfAdder.vhd|
+Z37 !s107 D:/Computer-Architecture/HalfAdder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 9 halfadder 0 22 GFKiK]:So9a`28^_@1MVn1
+l12
+L11
+VU=Jbe0VR1M0oAVhVHX`AD1
+!s100 ec:c1]>UT5nN91`f<]I`E0
+R10
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R15
+R16
+Eincrementer
+Z38 w1740655062
+R5
+R6
+R7
+Z39 8D:/Computer-Architecture/Incrementer.vhd
+Z40 FD:/Computer-Architecture/Incrementer.vhd
+l0
+L5
+VUS^iWeAZmUPAZ_G1lPzI@1
+!s100 <HSiJO08IYOA@==G01WmW0
+R10
+32
+Z41 !s110 1740655083
+!i10b 1
+Z42 !s108 1740655083.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/Incrementer.vhd|
+Z44 !s107 D:/Computer-Architecture/Incrementer.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 11 incrementer 0 22 US^iWeAZmUPAZ_G1lPzI@1
+l22
+L12
+V=WMNgXYPch94AAK:EVbHD0
+!s100 I;EH<HJi1LzoF6j7Lj;eQ1
+R10
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R15
+R16
+Eripplecarryadder
+Z45 w1740651546
+R5
+R6
+R7
+Z46 8D:/Computer-Architecture/RippleCarryAdder.vhd
+Z47 FD:/Computer-Architecture/RippleCarryAdder.vhd
+l0
+L5
+VXO:^7_CYG`6YAkia5znl42
+!s100 kecXYO0S:RW0aa8@3OghM2
+R10
+32
+Z48 !s110 1740651552
+!i10b 1
+Z49 !s108 1740651552.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Computer-Architecture/RippleCarryAdder.vhd|
+Z51 !s107 D:/Computer-Architecture/RippleCarryAdder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 16 ripplecarryadder 0 22 XO:^7_CYG`6YAkia5znl42
+l25
+L14
+VhVEJl16zbSAX^z6_BbM?a0
+!s100 g8CK;PlkFKgj?0WFnoC@I2
+R10
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R15
+R16
