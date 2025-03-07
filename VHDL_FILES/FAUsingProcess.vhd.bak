@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Demultiplexer is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           Cin : in  STD_LOGIC;
+           S : out  STD_LOGIC;
+           Cout : out STD_LOGIC);
+end Demultiplexer;
+
+architecture Behavioral of Demultiplexer is
+signal sig : STD_LOGIC_vector(2 downto 0);
+begin
+    sig(0) <= a;
+    sig(1) <= b;
+    sig(2) <= Cin;
+process(sig)  
+begin 
+    
+case sig is
+when "000" => S<= '0' ; Cout<='0'; 
+when "001" => S<= '1' ; Cout<='0'; 
+when "010" => S<= '1' ; Cout<='0'; 
+when "011" => S<= '0' ; Cout<='1'; 
+when "100" => S<= '1' ; Cout<='0'; 
+when "101" => S<= '0' ; Cout<='1'; 
+when "110" => S<= '0' ; Cout<='1'; 
+when "111" => S<= '1' ; Cout<='1'; 
+when others => S<='U' ; Cout<='U';
+end case;
+end process;
+end Behavioral;
+
