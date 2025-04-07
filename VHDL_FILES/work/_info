@@ -17,16 +17,16 @@ Z1 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;10.6d;65
+R0
 T_opt1
-!s110 1741255564
-V2A8aD6AK9[e]X_a9GK1IE2
-04 13 10 work demultiplexer behavioral 1
-=1-50ebf64f2946-67c9738c-11b-2fb8
+!s110 1743674744
+VbniQJGjh[PM6Z6QP9oBO=3
+04 17 10 work restoringdivision behavioral 1
+=1-50ebf64f2946-67ee5d78-171-1bfc
 R1
 R2
 n@_opt1
 R3
-R0
 T_opt2
 !s110 1741257490
 VT;WSeC9I9i3HZe_Ih?UB]0
@@ -232,24 +232,63 @@ R37
 !i113 0
 R15
 R16
-Efulladderusinghalfadder
-Z41 w1740661093
+Efulladder
+Z41 w1743664280
 R5
 R6
 R7
-Z42 8D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
-Z43 FD:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
+Z42 8D:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd
+Z43 FD:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd
+l0
+L4
+VIl6lOG6cZhZ?m]lCJ]<0Q1
+!s100 bf^5<_CM@NSC_OV4HjnSY1
+R10
+32
+Z44 !s110 1743664283
+!i10b 1
+Z45 !s108 1743664283.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd|
+Z47 !s107 D:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 9 fulladder 0 22 Il6lOG6cZhZ?m]lCJ]<0Q1
+l13
+L12
+V?O1LbDA4]<iKefF2?gofJ1
+!s100 U]H4JOSjYkF[flAP:Q4Bl1
+R10
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R15
+R16
+Efulladderusinghalfadder
+Z48 w1740661093
+R5
+R6
+R7
+Z49 8D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
+Z50 FD:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
 l0
 L4
 VN;gG<KkY_Cm:mePAB>K;z0
 !s100 4SAlU10WbMH=Q6_g4cUhk2
 R10
 32
-Z44 !s110 1740661118
+Z51 !s110 1740661118
 !i10b 1
-Z45 !s108 1740661118.000000
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd|
-Z47 !s107 D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd|
+Z52 !s108 1740661118.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd|
+Z54 !s107 D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd|
 !i113 0
 R15
 R16
@@ -263,32 +302,32 @@ VUC77nWLY]SGN`F@@P;hBH3
 !s100 UB7Ub_4JTKbIAcB5^PnEX1
 R10
 32
-R44
+R51
 !i10b 1
-R45
-R46
-R47
+R52
+R53
+R54
 !i113 0
 R15
 R16
 Ehalfadder
-Z48 w1740661077
+Z55 w1740661077
 R5
 R6
 R7
-Z49 8D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
-Z50 FD:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
+Z56 8D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
+Z57 FD:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
 l0
 L4
 VGFKiK]:So9a`28^_@1MVn1
 !s100 0g?f@Fa3?QI16cJgBG1mc2
 R10
 32
-Z51 !s110 1740661209
+Z58 !s110 1740661209
 !i10b 1
-Z52 !s108 1740661209.000000
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd|
-Z54 !s107 D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd|
+Z59 !s108 1740661209.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd|
+Z61 !s107 D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd|
 !i113 0
 R15
 R16
@@ -302,32 +341,32 @@ VU=Jbe0VR1M0oAVhVHX`AD1
 !s100 ec:c1]>UT5nN91`f<]I`E0
 R10
 32
-R51
+R58
 !i10b 1
-R52
-R53
-R54
+R59
+R60
+R61
 !i113 0
 R15
 R16
 Eincrementer
-Z55 w1740661099
+Z62 w1740661099
 R5
 R6
 R7
-Z56 8D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
-Z57 FD:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
+Z63 8D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
+Z64 FD:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
 l0
 L5
 VUS^iWeAZmUPAZ_G1lPzI@1
 !s100 <HSiJO08IYOA@==G01WmW0
 R10
 32
-Z58 !s110 1740661191
+Z65 !s110 1740661191
 !i10b 1
-Z59 !s108 1740661191.000000
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd|
-Z61 !s107 D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd|
+Z66 !s108 1740661191.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd|
+Z68 !s107 D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd|
 !i113 0
 R15
 R16
@@ -341,32 +380,32 @@ V=WMNgXYPch94AAK:EVbHD0
 !s100 I;EH<HJi1LzoF6j7Lj;eQ1
 R10
 32
-R58
+R65
 !i10b 1
-R59
-R60
-R61
+R66
+R67
+R68
 !i113 0
 R15
 R16
 Emultiplexer
-Z62 w1741253429
+Z69 w1741253429
 R5
 R6
 R7
-Z63 8D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd
-Z64 FD:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd
+Z70 8D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd
+Z71 FD:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd
 l0
 L4
 VMVOkf0C<@ZlZlZiS?AklG0
 !s100 ]MkaLl3<C8dOXm_Ig1P950
 R10
 32
-Z65 !s110 1741253436
+Z72 !s110 1741253436
 !i10b 1
-Z66 !s108 1741253436.000000
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd|
-Z68 !s107 D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd|
+Z73 !s108 1741253436.000000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd|
+Z75 !s107 D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd|
 !i113 0
 R15
 R16
@@ -380,32 +419,75 @@ VYOdOX[IG_lCXFBNFf^P<[1
 !s100 H3MFDiUmk^ZSFUG::WM@d2
 R10
 32
-R65
+R72
 !i10b 1
-R66
-R67
-R68
+R73
+R74
+R75
+!i113 0
+R15
+R16
+Erestoringdivision
+Z76 w1743674070
+Z77 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z78 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R5
+R6
+R7
+Z79 8D:/College-Computer-Architecture/VHDL_FILES/RestoringDivision.vhd
+Z80 FD:/College-Computer-Architecture/VHDL_FILES/RestoringDivision.vhd
+l0
+L6
+V9I`>?j3;8AdGANRc:R0BV2
+!s100 85E>GS9JaeiK81^UN<4TY1
+R10
+32
+Z81 !s110 1743674075
+!i10b 1
+Z82 !s108 1743674075.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/RestoringDivision.vhd|
+Z84 !s107 D:/College-Computer-Architecture/VHDL_FILES/RestoringDivision.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R77
+R78
+R5
+R6
+DEx4 work 17 restoringdivision 0 22 9I`>?j3;8AdGANRc:R0BV2
+l13
+L12
+V6VYOe5dcF?`l`3k_8Ygz30
+!s100 d;i@aanONHlgYnBH_0oMD1
+R10
+32
+R81
+!i10b 1
+R82
+R83
+R84
 !i113 0
 R15
 R16
 Eripplecarryadder
-Z69 w1740661101
+Z85 w1740661101
 R5
 R6
 R7
-Z70 8D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
-Z71 FD:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
+Z86 8D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
+Z87 FD:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
 l0
 L5
 VXO:^7_CYG`6YAkia5znl42
 !s100 kecXYO0S:RW0aa8@3OghM2
 R10
 32
-Z72 !s110 1740661197
+Z88 !s110 1740661197
 !i10b 1
-Z73 !s108 1740661197.000000
-Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd|
-Z75 !s107 D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd|
+Z89 !s108 1740661197.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd|
+Z91 !s107 D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd|
 !i113 0
 R15
 R16
@@ -419,32 +501,32 @@ VhVEJl16zbSAX^z6_BbM?a0
 !s100 g8CK;PlkFKgj?0WFnoC@I2
 R10
 32
-R72
+R88
 !i10b 1
-R73
-R74
-R75
+R89
+R90
+R91
 !i113 0
 R15
 R16
 Ethreetoeightdecoder
-Z76 w1742464709
+Z92 w1742464709
 R5
 R6
 R7
-Z77 8D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd
-Z78 FD:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd
+Z93 8D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd
+Z94 FD:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd
 l0
 L4
 VL]IWS]^moB`>OFdFE1nO61
 !s100 jXDJ9AF7f1[=nY`c=fAZ31
 R10
 32
-Z79 !s110 1742464715
+Z95 !s110 1742464715
 !i10b 1
-Z80 !s108 1742464715.000000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd|
-Z82 !s107 D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd|
+Z96 !s108 1742464715.000000
+Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd|
+Z98 !s107 D:/College-Computer-Architecture/VHDL_FILES/ThreeToEightDecoder.vhd|
 !i113 0
 R15
 R16
@@ -458,11 +540,54 @@ Vzlj64<[OUYbPC>BfMCME`2
 !s100 IJ61=RboFa?E`F`UG`LXS3
 R10
 32
-R79
+R95
 !i10b 1
-R80
-R81
-R82
+R96
+R97
+R98
+!i113 0
+R15
+R16
+Eunsignedmultiplication
+Z99 w1743672883
+R77
+R78
+R5
+R6
+R7
+Z100 8D:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd
+Z101 FD:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd
+l0
+L6
+V0[oo<CjVCA4>caPaV]JZT0
+!s100 ogHiocAY<gJYRZlSkF^D92
+R10
+32
+Z102 !s110 1743672892
+!i10b 1
+Z103 !s108 1743672892.000000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd|
+Z105 !s107 D:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R77
+R78
+R5
+R6
+DEx4 work 22 unsignedmultiplication 0 22 0[oo<CjVCA4>caPaV]JZT0
+l14
+L12
+V_69ga:E]M@mzfZR1>2FA]1
+!s100 8d687TMcE2DE@POjDN8nW1
+R10
+32
+R102
+!i10b 1
+R103
+R104
+R105
 !i113 0
 R15
 R16

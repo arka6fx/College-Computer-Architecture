@@ -6,6 +6,40 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity Decrementer
 -- Compiling architecture Behavioral of Decrementer
 
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/UnsignedMultiplication.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity UnsignedMultiplication
+-- Compiling architecture Behavioral of UnsignedMultiplication
+
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HalfAdder
+-- Compiling architecture Behavioral of HalfAdder
+
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Incrementer
+-- Compiling architecture Behavioral of Incrementer
+
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FullAdderUsingHalfAdder
+-- Compiling architecture Behavioral of FullAdderUsingHalfAdder
+
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/Decoder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Decoder.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
@@ -22,14 +56,6 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity ThreeToEightDecoder
 -- Compiling architecture Behavioral of ThreeToEightDecoder
 
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/HalfAdder.vhd
-Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity HalfAdder
--- Compiling architecture Behavioral of HalfAdder
-
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Multiplexer.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
@@ -38,13 +64,21 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity Multiplexer
 -- Compiling architecture Behavioral of Multiplexer
 
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Incrementer.vhd
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FullAdder.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Incrementer
--- Compiling architecture Behavioral of Incrementer
+-- Compiling entity FullAdder
+-- Compiling architecture Behavioral of FullAdder
+
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FAUsingProcess
+-- Compiling architecture Behavioral of FAUsingProcess
 
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
@@ -54,14 +88,6 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity AdderSubtractorCompositeUnit
 -- Compiling architecture Behavioral of AdderSubtractorCompositeUnit
 
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FullAdderUsingHalfAdder.vhd
-Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity FullAdderUsingHalfAdder
--- Compiling architecture Behavioral of FullAdderUsingHalfAdder
-
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
@@ -69,14 +95,6 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package std_logic_1164
 -- Compiling entity Demultiplexer
 -- Compiling architecture Behavioral of Demultiplexer
-
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd
-Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity FAUsingProcess
--- Compiling architecture Behavioral of FAUsingProcess
 
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018

@@ -1,0 +1,43 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity RestoringDivision is
+	port( m : in STD_LOGIC_VECTOR(3 downto 0);
+              q : in STD_LOGIC_VECTOR(3 downto 0);
+              r : out STD_LOGIC_VECTOR(7 downto 0));
+end RestoringDivision;
+
+architecture Behavioral of RestoringDivision is
+begin
+
+process(m, q)
+    variable acc: std_logic_vector(8 downto 0);
+    variable divisor: std_logic_vector(4 downto 0);
+begin
+    -- Initialization
+    acc(8 downto 4) := "00000";  -- Setting accumulator upper bits to 0
+    acc(3 downto 0) := q;         -- Placing dividend in LSBs
+    divisor := '0' & m;           -- Appending leading zero to divisor
+
+    -- Restoring Division Loop
+    for i in 0 to 3 loop
+        acc := acc(7 downto 0) & '0'; -- Left shift
+        
+        -- Subtract divisor from upper bits of accumulator
+        acc(8 downto 4) := acc(8 downto 4) - divisor;
+        
+        if acc(8) = '0' then
+            acc(0) := '1'; -- Successful subtraction, set quotient bit
+        else
+            acc(0) := '0'; -- Restore previous value
+            acc(8 downto 4) := acc(8 downto 4) + divisor; -- Undo subtraction
+        end if;
+    end loop;
+
+    r <= acc(7 downto 0); -- Assign remainder and quotient
+end process;
+
+end Behavioral;
+
