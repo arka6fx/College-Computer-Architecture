@@ -1,30 +1,23 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity FullAdderUsingHalfAdder is
-    Port ( af   : in  STD_LOGIC;
-           bf   : in  STD_LOGIC;
-           Cin  : in  STD_LOGIC;
-           sf   : out STD_LOGIC;
-           Cout : out STD_LOGIC);
+	port( a,b,Cin : in std_logic;
+		Cout,s : out std_logic);
 end FullAdderUsingHalfAdder;
 
 architecture Behavioral of FullAdderUsingHalfAdder is
-    component HalfAdder
-        Port ( a : in  STD_LOGIC;
-               b : in  STD_LOGIC;
-               s : out STD_LOGIC;
-               c : out STD_LOGIC);
-    end component;
-
-    signal sig1, sig2, sig3 : STD_LOGIC;
-
+	component HalfAdder
+	 	 Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           s : out STD_LOGIC;
+           c : out STD_LOGIC);
+	end component;
+	signal sig1, sig2, sig3: std_logic;
 begin
-    X1: HalfAdder port map(af, bf, sig1, sig2);
-    X2: HalfAdder port map(sig1, Cin, sf, sig3); 
-
-    Cout <= sig2 OR sig3; 
+x1: HalfAdder port map(a,b,sig1,sig2);
+x2: HalfAdder port map(sig1,Cin,s,sig3);
+Cout <= sig2 or sig3;
 
 end Behavioral;
-
 

@@ -1,1 +1,31 @@
 
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity RippleCarryAdder is
+	port(a : in std_logic_vector( 3 downto 0);
+	     b : in std_logic_vector( 3 downto 0);
+	     Cin: in std_logic;
+	     Cout: out std_logic;
+	     S  : out std_logic_vector( 3 downto 0));
+end RippleCarryAdder;
+
+architecture Behavioral of RippleCarryAdder is
+
+	Component FullAdder
+	 Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           Cin: in STD_LOGIC;
+           s : out STD_LOGIC;
+           Cout : out STD_LOGIC);
+	end component;
+	signal cp: std_logic(2 downto 0);
+begin
+
+	x1: FullAdder port map(a(0),b(0),Cin,s(0),cp(0));
+	x2: FullAdder port map(a(1),b(1),cp(0),s(1),cp(1));
+	x3: FullAdder port map(a(2),b(2),cp(1),s(2),cp(2));
+	x4: FullAdder port map(a(3),b(3),cp(2),s(3),Cout);
+
+end Behavioral;			 
+	
