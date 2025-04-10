@@ -102,13 +102,13 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity FullAdder
 -- Compiling architecture Behavioral of FullAdder
 
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Demultiplexer
--- Compiling architecture Behavioral of Demultiplexer
+-- Compiling entity AdderSubtractorCompositeUnit
+-- Compiling architecture Behavioral of AdderSubtractorCompositeUnit
 
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/FAUsingProcess.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
@@ -118,13 +118,13 @@ Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling entity FAUsingProcess
 -- Compiling architecture Behavioral of FAUsingProcess
 
-} {} {}} D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/AdderSubtractorCompositeUnit.vhd
+} {} {}} D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/Demultiplexer.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity AdderSubtractorCompositeUnit
--- Compiling architecture Behavioral of AdderSubtractorCompositeUnit
+-- Compiling entity Demultiplexer
+-- Compiling architecture Behavioral of Demultiplexer
 
 } {} {}} D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/College-Computer-Architecture/VHDL_FILES/RippleCarryAdder.vhd
 Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018

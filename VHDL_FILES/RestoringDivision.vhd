@@ -5,8 +5,8 @@ use IEEE.STD_LOGIC_unsigned.ALL;
 
 entity RestoringDivision is
     Port ( 
-        m      : in  STD_LOGIC_VECTOR (3 downto 0); 
-        q      : in  STD_LOGIC_VECTOR (3 downto 0);  
+        q      : in  STD_LOGIC_VECTOR (3 downto 0); 
+        m      : in  STD_LOGIC_VECTOR (3 downto 0);  
         quo    : out STD_LOGIC_VECTOR (3 downto 0); 
         remain : out STD_LOGIC_VECTOR (4 downto 0)   
     );
@@ -15,21 +15,21 @@ architecture Behavioral of RestoringDivision is
 begin
     process (m, q)
         variable acc     : STD_LOGIC_VECTOR (8 downto 0);
-        variable divisor : STD_LOGIC_VECTOR (4 downto 0);
+        variable m1 : STD_LOGIC_VECTOR (4 downto 0);
     begin
         acc(8 downto 4) := "00000";        
-        acc(3 downto 0) := m;              
-        divisor := '0' & q;                
+        acc(3 downto 0) := q;              
+        m1 := '0' & m;                
 
         for i in 1 to 4 loop
             acc := acc(7 downto 0) & '0';   
 
-            acc(8 downto 4) := acc(8 downto 4) - divisor;
+            acc(8 downto 4) := acc(8 downto 4) - m1;
 
             if acc(8) = '0' then            
                 acc(0) := '1';
             else                           
-                acc(8 downto 4) := acc(8 downto 4) + divisor;
+                acc(8 downto 4) := acc(8 downto 4) + m1;
                 acc(0) := '0';
             end if;
         end loop;

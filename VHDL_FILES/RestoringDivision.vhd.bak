@@ -5,37 +5,37 @@ use IEEE.STD_LOGIC_unsigned.ALL;
 
 entity RestoringDivision is
     Port ( 
-        m      : in  STD_LOGIC_VECTOR (3 downto 0);  -- Dividend
-        q      : in  STD_LOGIC_VECTOR (3 downto 0);  -- Divisor
-        quo    : out STD_LOGIC_VECTOR (3 downto 0);  -- Quotient
-        remain : out STD_LOGIC_VECTOR (4 downto 0)   -- Remainder
+        q      : in  STD_LOGIC_VECTOR (3 downto 0); 
+        m      : in  STD_LOGIC_VECTOR (3 downto 0);  
+        quo    : out STD_LOGIC_VECTOR (3 downto 0); 
+        remain : out STD_LOGIC_VECTOR (4 downto 0)   
     );
 end RestoringDivision;
 architecture Behavioral of RestoringDivision is
 begin
     process (m, q)
         variable acc     : STD_LOGIC_VECTOR (8 downto 0);
-        variable divisor : STD_LOGIC_VECTOR (4 downto 0);
+        variable m1 : STD_LOGIC_VECTOR (4 downto 0);
     begin
-        acc(8 downto 4) := "00000";         -- Clear the remainder
-        acc(3 downto 0) := m;               -- Load dividend into lower acc
-        divisor := '0' & q;                -- Extend divisor to 5 bits
+        acc(8 downto 4) := "00000";        
+        acc(3 downto 0) := q;              
+        m1 := '0' & m;                
 
         for i in 1 to 4 loop
-            acc := acc(7 downto 0) & '0';   -- Left shift acc by 1 bit
+            acc := acc(7 downto 0) & '0';   
 
-            acc(8 downto 4) := acc(8 downto 4) - divisor;
+            acc(8 downto 4) := acc(8 downto 4) - m;
 
-            if acc(8) = '0' then            -- No borrow ? subtraction successful
+            if acc(8) = '0' then            
                 acc(0) := '1';
-            else                            -- Borrow ? restore previous value
-                acc(8 downto 4) := acc(8 downto 4) + divisor;
+            else                           
+                acc(8 downto 4) := acc(8 downto 4) + m;
                 acc(0) := '0';
             end if;
         end loop;
 
-        quo    <= acc(3 downto 0);          -- Output quotient
-        remain <= acc(8 downto 4);          -- Output remainder
+        quo    <= acc(3 downto 0);         
+        remain <= acc(8 downto 4);          
     end process;
 end Behavioral;
 
